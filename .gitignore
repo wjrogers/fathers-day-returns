@@ -1,0 +1,16 @@
+# ignore everything in the root by default
+/*
+!.gitignore
+
+# stuff to track
+!config/
+!scripts/
+!README.md
+
+# ignore JEI caches and world-specific configs
+config/jei/lookupHistory.zip
+config/jei/tooltipCache.zip
+config/jei/worldSettings.cfg
+
+# ignore splash screen saved state
+config/splash.properties
