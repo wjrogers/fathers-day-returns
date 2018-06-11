@@ -7,6 +7,10 @@
 !scripts/
 !README.md
 
+# ignore deprecated AE2 custom recipes
+config/AppliedEnergistics2/aerecipes/
+config/AppliedEnergistics2/CustomRecipes.cfg
+
 # ignore JEI caches and world-specific configs
 config/jei/lookupHistory.zip
 config/jei/tooltipCache.zip
