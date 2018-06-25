@@ -46,3 +46,9 @@ recipes.addShaped("ae2_simple_cpu_calc", <appliedenergistics2:material:23>,
     [ [certus], [redstone], [silicon] ]);
 recipes.addShaped("ae2_simple_cpu_engi", <appliedenergistics2:material:24>,
     [ [diamond], [redstone], [silicon] ]);
+
+# conjure certus quartz (copy of the default botania nether quartz recipe)
+mods.botania.ManaInfusion.addConjuration(
+    <appliedenergistics2:material:0> * 2,
+    <appliedenergistics2:material:0>,
+    2500);
