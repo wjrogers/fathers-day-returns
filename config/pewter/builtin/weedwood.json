@@ -1,0 +1,77 @@
+{
+  "color": "#665E31",
+  "craftable": true,
+  "madeInToolForge": false,
+  "name": "weedwood",
+  "meltingTemperature": 475,
+  "durability": 75,
+  "toolAttackDamage": 2.2,
+  "toolHarvestLevel": 0,
+  "toolSpeed": 2.4,
+  "handleMult": 1.1,
+  "handleDurability": 40,
+  "bindingDurability": 25,
+  "bowSpeed": 1.0526316,
+  "bowAccuracy": 0.9,
+  "bowRange": 0.9,
+  "bowBonusDamage": -0.5,
+  "arrowShaftModifier": 0.9,
+  "arrowShaftBonusAmmo": 15,
+  "arrowFletchingModifier": 0.0,
+  "bowStringModifier": 0.85,
+  "defaultTrait": "corrosive",
+  "looks": {
+    "shininess": 0.15,
+    "brightness": 0.25,
+    "hueshift": -0.1
+  },
+  "fluid": {
+    "viscosity": 8000,
+    "density": 1500,
+    "temperature": 1000,
+    "luminosity": 8
+  },
+  "matParts": [
+    "HEAD",
+    "HANDLE",
+    "EXTRA",
+    "BOW",
+    "PROJECTILE",
+    "SHAFT"
+  ],
+  "nameLocales": {},
+  "smelting": {
+    "ingot": [
+      "thebetweenlands:weedwood_planks"
+    ],
+    "block": [],
+    "nugget": [],
+    "ore": []
+  },
+  "specificTraits": {
+    "HEAD": [
+      "corrosive",
+      "ecological"
+    ],
+    "HANDLE": [
+      "corrosive",
+      "ecological"
+    ],
+    "EXTRA": [
+      "corrosive",
+      "ecological"
+    ],
+    "BOW": [
+      "corrosive",
+      "ecological"
+    ],
+    "SHAFT": [
+      "corrosive",
+      "ecological"
+    ],
+    "PROJECTILE": [
+      "corrosive",
+      "ecological"
+    ]
+  }
+}

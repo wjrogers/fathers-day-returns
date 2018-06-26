@@ -1,0 +1,60 @@
+{
+  "color": "#F39C20",
+  "craftable": false,
+  "madeInToolForge": true,
+  "name": "octine",
+  "meltingTemperature": 475,
+  "durability": 270,
+  "toolAttackDamage": 4.2,
+  "toolHarvestLevel": 1,
+  "toolSpeed": 5.5,
+  "handleMult": 0.75,
+  "handleDurability": 55,
+  "bindingDurability": 95,
+  "bowSpeed": 0.4,
+  "bowAccuracy": 0.0,
+  "bowRange": 0.5,
+  "bowBonusDamage": -0.5,
+  "arrowShaftModifier": 0.85,
+  "arrowShaftBonusAmmo": 15,
+  "arrowFletchingModifier": 0.0,
+  "bowStringModifier": 0.85,
+  "defaultTrait": "corrosive",
+  "looks": {
+    "shininess": 0.5,
+    "brightness": 0.25,
+    "hueshift": -0.1
+  },
+  "fluid": {
+    "viscosity": 8000,
+    "density": 1500,
+    "temperature": 1000,
+    "luminosity": 8
+  },
+  "matParts": [
+    "HEAD",
+    "HANDLE",
+    "EXTRA",
+    "BOW",
+    "PROJECTILE"
+  ],
+  "nameLocales": {
+    "en_7S ": "Ye Illuminating Treasure"
+  },
+  "smelting": {
+    "ingot": [
+      "thebetweenlands:octine_ingot"
+    ],
+    "block": [],
+    "nugget": [],
+    "ore": [
+      "thebetweenlands:octine_ore"
+    ]
+  },
+  "specificTraits": {
+    "HEAD": [
+      "corrosive",
+      "sparking"
+    ]
+  }
+}

@@ -1,0 +1,60 @@
+{
+  "color": "#1E336C",
+  "craftable": false,
+  "madeInToolForge": true,
+  "name": "syrmorite",
+  "meltingTemperature": 475,
+  "durability": 620,
+  "toolAttackDamage": 5.1,
+  "toolHarvestLevel": 2,
+  "toolSpeed": 5.2,
+  "handleMult": 1.15,
+  "handleDurability": -45,
+  "bindingDurability": 125,
+  "bowSpeed": 0.4,
+  "bowAccuracy": 1.0,
+  "bowRange": 0.5,
+  "bowBonusDamage": 1.5,
+  "arrowShaftModifier": 0.85,
+  "arrowShaftBonusAmmo": 15,
+  "arrowFletchingModifier": 0.0,
+  "bowStringModifier": 0.85,
+  "defaultTrait": "corrosive",
+  "looks": {
+    "shininess": 0.25,
+    "brightness": 0.25,
+    "hueshift": -0.1
+  },
+  "fluid": {
+    "viscosity": 8000,
+    "density": 1500,
+    "temperature": 1000,
+    "luminosity": 8
+  },
+  "matParts": [
+    "HEAD",
+    "HANDLE",
+    "EXTRA",
+    "BOW",
+    "PROJECTILE"
+  ],
+  "nameLocales": {},
+  "smelting": {
+    "ingot": [
+      "thebetweenlands:items_misc:11"
+    ],
+    "block": [
+      "thebetweenlands:syrmorite_block"
+    ],
+    "nugget": [],
+    "ore": [
+      "thebetweenlands:syrmorite_ore"
+    ]
+  },
+  "specificTraits": {
+    "HEAD": [
+      "corrosive",
+      "gritty"
+    ]
+  }
+}

@@ -1,0 +1,60 @@
+{
+  "color": "#845784",
+  "craftable": true,
+  "madeInToolForge": false,
+  "name": "valonite",
+  "meltingTemperature": 475,
+  "durability": 775,
+  "toolAttackDamage": 5.6,
+  "toolHarvestLevel": 2,
+  "toolSpeed": 5.7,
+  "handleMult": 1.0,
+  "handleDurability": -75,
+  "bindingDurability": 160,
+  "bowSpeed": 0.25,
+  "bowAccuracy": 1.0,
+  "bowRange": 0.5,
+  "bowBonusDamage": 1.5,
+  "arrowShaftModifier": 0.85,
+  "arrowShaftBonusAmmo": 15,
+  "arrowFletchingModifier": 0.0,
+  "bowStringModifier": 0.85,
+  "defaultTrait": "corrosive",
+  "looks": {
+    "shininess": 0.7,
+    "brightness": 0.25,
+    "hueshift": -0.1
+  },
+  "fluid": {
+    "viscosity": 8000,
+    "density": 1500,
+    "temperature": 1000,
+    "luminosity": 8
+  },
+  "matParts": [
+    "HEAD",
+    "HANDLE",
+    "EXTRA",
+    "BOW",
+    "PROJECTILE"
+  ],
+  "nameLocales": {},
+  "smelting": {
+    "ingot": [
+      "thebetweenlands:items_misc:19"
+    ],
+    "block": [
+      "thebetweenlands:valonite_block"
+    ],
+    "nugget": [],
+    "ore": [
+      "thebetweenlands:valonite_ore"
+    ]
+  },
+  "specificTraits": {
+    "HEAD": [
+      "corrosive",
+      "sharp"
+    ]
+  }
+}
