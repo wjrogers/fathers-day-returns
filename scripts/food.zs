@@ -21,3 +21,9 @@ mods.thermalexpansion.Pulverizer.addRecipe(
     <natura:materials:2>,
     <minecraft:wheat>,
     4000);
+
+# grind barley in the AE2 Grinder, too
+mods.appliedenergistics2.Grinder.addRecipe(
+    <natura:materials:1>,
+    <natura:materials:0>,
+    4);
