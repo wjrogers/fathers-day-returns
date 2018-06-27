@@ -6,6 +6,8 @@
 !config/
 !scripts/
 !README.md
+!manifest.bat
+!manifest.json
 
 # ignore deprecated AE2 custom recipes
 config/AppliedEnergistics2/aerecipes/

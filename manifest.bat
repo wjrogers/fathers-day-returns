@@ -1,0 +1,1 @@
+jq "[ .installedAddons[] | .installedFile.fileNameOnDisk ] | sort_by(. | ascii_upcase)" minecraftinstance.json > manifest.json
