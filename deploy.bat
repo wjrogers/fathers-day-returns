@@ -18,3 +18,7 @@ ECHO.
 
 ROBOCOPY /Z /E /MIR scripts "%~1\scripts"
 ECHO.
+
+ECHO Removing client-only mods...
+DEL "%~1\mods\journeymap*.jar"
+ECHO.
