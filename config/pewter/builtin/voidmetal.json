@@ -1,0 +1,60 @@
+{
+  "color": "#2A114A",
+  "craftable": false,
+  "madeInToolForge": true,
+  "name": "voidmetal",
+  "meltingTemperature": 475,
+  "durability": 740,
+  "toolAttackDamage": 5.3,
+  "toolHarvestLevel": 3,
+  "toolSpeed": 5.8,
+  "handleMult": 1.15,
+  "handleDurability": -15,
+  "bindingDurability": 200,
+  "bowSpeed": 0.4,
+  "bowAccuracy": 0.85,
+  "bowRange": 1.75,
+  "bowBonusDamage": 6.5,
+  "arrowShaftModifier": 1.1,
+  "arrowShaftBonusAmmo": 5,
+  "arrowFletchingModifier": 0.0,
+  "bowStringModifier": 0.05,
+  "defaultTrait": "warping",
+  "looks": {
+    "shininess": 0.25,
+    "brightness": 0.25,
+    "hueshift": -0.1
+  },
+  "fluid": {
+    "viscosity": 8000,
+    "density": 1500,
+    "temperature": 1000,
+    "luminosity": 8
+  },
+  "matParts": [
+    "HEAD",
+    "HANDLE",
+    "EXTRA",
+    "BOW",
+    "PROJECTILE"
+  ],
+  "nameLocales": {},
+  "smelting": {
+    "ingot": [
+      "thaumcraft:ingot:1"
+    ],
+    "block": [
+      "thaumcraft:metal_void"
+    ],
+    "nugget": [
+      "thaumcraft:nugget:7"
+    ],
+    "ore": []
+  },
+  "specificTraits": {
+    "HEAD": [
+      "warping",
+      "sapping"
+    ]
+  }
+}

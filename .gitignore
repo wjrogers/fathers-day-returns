@@ -19,6 +19,7 @@ config/AppliedEnergistics2/CustomRecipes.cfg
 config/jei/lookupHistory.zip
 config/jei/tooltipCache.zip
 config/jei/worldSettings.cfg
+config/thaumicjei_itemstack_aspects.json
 
 # ignore splash screen saved state
 config/splash.properties
