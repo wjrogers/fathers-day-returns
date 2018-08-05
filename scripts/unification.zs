@@ -5,6 +5,51 @@
     Unify conflicting and redundant processing recipes across mods.
 */
 
+# metals list copied from UniDict.cfg, plus Thaumium and Void
+val metals = [
+    "Alumina",
+    "Aluminium",
+    "Aluminum",
+    "Brass",
+    "Bronze",
+    "Chrome",
+    "Chromium",
+    "Constantan",
+    "Copper",
+    "Cupronickel",
+    "Electrum",
+    "Gold",
+    "Invar",
+    "Iridium",
+    "Iron",
+    "Lead",
+    "Nickel",
+    "Osmium",
+    "Platinum",
+    "Silver",
+    "Steel",
+    "Thaumium",
+    "Tin",
+    "Uranium",
+    "Void",
+    "Zinc"
+] as string[];
+
+# remove all hand-crafting of plates
+mods.unidict.removalByKind.get("Crafting").remove("plate");
+
+# add ingot + hammer recipes for each plate
+for metal in metals {
+    val ingots = oreDict["ingot" ~ metal];
+    val plates = oreDict["plate" ~ metal];
+    if (!ingots.empty & !plates.empty) {
+        recipes.addShapeless(
+            "hammered_plate" ~ metal,
+            plates.firstItem,
+            [ <immersiveengineering:tool>, ingots ]);
+    }
+}
+
 # keep only one of these extremely similar gunpowder recipes
 /*
 recipes.addShapeless(
