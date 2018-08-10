@@ -5,7 +5,9 @@
     Unify conflicting and redundant processing recipes across mods.
 */
 
-# metals list copied from UniDict.cfg, plus Thaumium and Void
+# metals list copied from UniDict.cfg,
+#   + Signalum, Lumium, Enderium, and Mithril
+#   + Thaumium and Void
 val metals = [
     "Alumina",
     "Aluminium",
@@ -18,14 +20,18 @@ val metals = [
     "Copper",
     "Cupronickel",
     "Electrum",
+    "Enderium",
     "Gold",
     "Invar",
     "Iridium",
     "Iron",
     "Lead",
+    "Lumium",
+    "Mithril",
     "Nickel",
     "Osmium",
     "Platinum",
+    "Signalum",
     "Silver",
     "Steel",
     "Thaumium",
